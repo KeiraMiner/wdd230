@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keira Miner</title>
     <meta name="description" content="Assignment portal for Keira Miner, for the WDD230: Web Frontend Development 1 at Brigham Young University - Idaho">
+    <link rel="normalize" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="javascript" href="js/time.js">
 </head>
 <body>
     <header>
-        <img src="images\me.jpg" alt="Me">
+        <img src="images/me.jpg" alt="Me">
         <h1>Keira Miner</h1>
     </header>
     <main>
@@ -30,8 +30,9 @@
         </ul>
     </main>
     <footer>
-        &copy; 2022 - Keira Miner - WDD230
-        Last updated:
+        <p> &copy; <span id="year"></span> - Keira Miner - WDD230</p>
+       <p>Last updated:  <span id="lastUpdate"></span></p>
     </footer>
+    <script src="js/time.js"></script>
 </body>
 </html>
