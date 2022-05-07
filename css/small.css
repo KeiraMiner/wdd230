@@ -1,13 +1,14 @@
 * {
     margin: 0 auto;
-    box-sizing: border-box;align-self: start;
+    box-sizing: border-box;
+    align-self: start;
 }
 
 h1 {
     font-family: 'Ms Madi', cursive;
 }
-body {
-    font-size: 16px;
+body, h2 {
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,12 +31,8 @@ header img {
     max-width: 100px;
     height: auto;
     padding: 5px;
+    border-radius: 10px;
 }
-/*h2 {
-    display: grid;
-    grid-template-columns: 100px;
-    grid-column: 2;
-}*/
 
 footer {
     margin: 1rem auto;
@@ -44,12 +41,13 @@ footer {
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
-#1 {
+#copyright {
     grid-row: 1;
 }
-#2 {
+#update {
     grid-row: 2;
 }
+
 
 #currentdate body span {
     margin: .5rem;
