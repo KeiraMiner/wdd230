@@ -6,6 +6,9 @@
 
 h1 {
     font-family: 'Ms Madi', cursive;
+    grid-row: 2;
+    align-self: center;
+    font-size: 22px;
 }
 body, h2 {
     font-size: 14px;
@@ -18,16 +21,16 @@ header, main, footer {
 }
 
 header {
+    display: grid;
     margin: 1rem auto;
     padding: .5rem;
     background-color: rgb(131, 99, 134);
-    display: grid;
-    grid-template-columns: 200px 1fr;
     align-items: center;
     justify-items: center;
 }
 
 header img {
+    grid-row: 1;
     max-width: 100px;
     height: auto;
     padding: 5px;
