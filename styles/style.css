@@ -1,0 +1,28 @@
+body {
+    max-width: 750px;
+    margin: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+header {
+    display:grid;
+    background-color: #b0e0e6;
+    grid-template-columns: 300px, 1fr;
+}
+img {
+    grid-column: 1;
+    width: 200px;
+    padding: 10px;
+}
+h1 {
+    grid-column: 2;
+    color: #ffffff;
+    font-family:'Lucida Handwriting', cursive;
+    font-size: 70px;
+    align-content: center;
+}
+main {
+    line-height: 27px;
+}
+footer {
+    background-color: #b0e0e6;
+}
